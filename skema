@@ -1,0 +1,12 @@
+#!/bin/sh
+
+BASEDIR=$(dirname "$0")
+
+while getopts "d:" opt
+do
+   case "$opt" in
+      d ) parameterD="$OPTARG" ;;
+   esac
+done
+
+php "$BASEDIR/skema-src/main.php" -d $parameterD
