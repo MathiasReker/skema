@@ -12,18 +12,16 @@
 
 ``` bash
 $ cd c:
-$ mkdir skema
-$ cd skema
-$ git clone 
+$ git clone https://github.com/MathiasReker/skema-cli
 ```
 
 ## Dokumentation
 Vis dagens skema:
 ``` bash
-> $ skema
+$ skema
 ```
 
 Vis skemaet n dage frem:
 ``` bash
-> $ skema -d n
+$ skema -d n
 ```
