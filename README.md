@@ -15,9 +15,9 @@ $ cd c:
 $ git clone https://github.com/MathiasReker/skema-cli
 ```
 
-Gå til System -> Avancerede systemindstillinger -> Miljøvariabler -> System variabler.
-Klip på Path -> Rediger.
-Tilføj ny: `C:\skema-cli`
+1) Gå til System -> Avancerede systemindstillinger -> Miljøvariabler -> System variabler.
+2) Klik på Path -> Rediger.
+3) Tilføj ny: `C:\skema-cli`
 
 
 ## Dokumentation
