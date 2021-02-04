@@ -14,6 +14,8 @@
 $ cd c:
 $ git clone https://github.com/MathiasReker/skema-cli
 ```
+Gå til System -> Avancerede systemindstillinger -> Miljøvariabler -> System variabler -> Path -> Rediger -> Ny: `C:\skema-cli`
+
 
 ## Dokumentation
 Vis dagens skema:
