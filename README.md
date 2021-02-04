@@ -19,6 +19,11 @@ $ git clone https://github.com/MathiasReker/skema-cli
 2) Klik på Path -> Rediger.
 3) Tilføj ny: `C:\skema-cli`
 
+Skemaet ligger lokalt, her: `C:\skema-cli\skema-src\stud.kea.dk.ics`
+Hvis du vi opdatere dit skema, skal du overskrive denne fil. Du kan downloade dit skema her: [https://publish.kea.dk/#/app/my-timetable](https://publish.kea.dk/#/app/my-timetable)
+
+[![Skema](https://github.com/MathiasReker/skema-cli/blob/main/kean-publisher.png)](https://github.com/MathiasReker/skema-cli/blob/main/kean-publisher.png "Skema")
+
 ## Dokumentation
 Vis dagens skema:
 ``` bash
