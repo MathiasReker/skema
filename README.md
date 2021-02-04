@@ -1,5 +1,7 @@
 # Skema CLI
 
+[![CLI](https://github.com/MathiasReker/skema-cli/blob/main/skema.png)](https://github.com/MathiasReker/skema-cli/blob/main/skema.png "CLI")
+
 ## Requirements
 - Windows 10
 - PHP 7+
@@ -8,13 +10,14 @@
 ## Installation
 - Følg videoen nedenfor. 
 
-[![Installation](https://github.com/MathiasReker/skema-cli/blob/main/skema-cli.webm)](https://github.com/MathiasReker/skema-cli/blob/main/skema-cli.webm "Installation")
-
 ``` bash
 $ cd c:
 $ git clone https://github.com/MathiasReker/skema-cli
 ```
-Gå til System -> Avancerede systemindstillinger -> Miljøvariabler -> System variabler -> Path -> Rediger -> Ny: `C:\skema-cli`
+
+Gå til System -> Avancerede systemindstillinger -> Miljøvariabler -> System variabler.
+Klip på Path -> Rediger.
+Tilføj ny: `C:\skema-cli`
 
 
 ## Dokumentation
