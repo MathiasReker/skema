@@ -8,7 +8,7 @@
 - Git Bash
 
 ## Installation
-- Følg videoen nedenfor. 
+- Følg videoen: [![Video](https://github.com/MathiasReker/skema-cli/blob/main/skema-cli.webm)](https://github.com/MathiasReker/skema-cli/blob/main/skema-cli.webm "Video")
 
 ``` bash
 $ cd c:
@@ -18,7 +18,6 @@ $ git clone https://github.com/MathiasReker/skema-cli
 1) Gå til System -> Avancerede systemindstillinger -> Miljøvariabler -> System variabler.
 2) Klik på Path -> Rediger.
 3) Tilføj ny: `C:\skema-cli`
-
 
 ## Dokumentation
 Vis dagens skema:
