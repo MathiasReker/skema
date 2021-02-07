@@ -33,12 +33,14 @@ for ($days = 0; $days <= (int) \implode('', \getopt('d:')); ++$days) {
     }
 }
 
-foreach ($out as $key => $part) {
-    $sort[$key] = \strtotime($part[0]);
-}
+if (!empty($out)) {
+    foreach ($out as $key => $part) {
+        $sort[$key] = \strtotime($part[0]);
+    }
 
-\array_multisort($sort, \SORT_ASC, $out);
+    \array_multisort($sort, \SORT_ASC, $out);
 
-foreach ($out as $key) {
-    echo \implode("\n", $key) . "\n\033[33m--\n\033[39m";
+    foreach ($out as $key) {
+        echo \implode("\n", $key) . "\n\033[33m--\n\033[39m";
+    }
 }
